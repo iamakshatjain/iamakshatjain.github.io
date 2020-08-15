@@ -751,16 +751,32 @@ input[type="submit"]:hover {
   flex-flow: wrap;
 }
 
-.skills-info h4 {
-  font-size: 0.8em;
-  line-height: 1.1em;
-  position: relative;
-  margin: 0 0 5px;
+.skill {
+  background-color: #000080;
+  color: white;
+  padding: 8px;
+  margin: 4px;
+  font-weight: 500;
 }
 
-.skill {
-  margin: 8px;
+.skill-small {
+  padding: 4px;
+  margin: 2px;
+  font-size: 0.75em;
 }
+
+.skill:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.skills-heading {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1em;
+}
+
 .js .sub-page-page:not(.sub-page-page-current) {
   width: 0;
 }
@@ -795,6 +811,7 @@ input[type="submit"]:hover {
   margin: 16px 0;
 }
 
+/* to keep the proper dimensions of the image */
 .portfolio-item-image-wrapper {
   width: 40%;
   max-height: 250px;
@@ -815,9 +832,14 @@ input[type="submit"]:hover {
 }
 
 .portfolio-item-caption {
-  font-size: 1em;
+  font-size: 0.75em;
   font-weight: 600;
   color: #9e9e9e;
+}
+
+.bullet {
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .portfolio-filters {

@@ -37,7 +37,7 @@ const Portfolio = () => {
             {/* <!-- Portfolio Grid --> */}
             <div id="portfolio-items">
               {portfolio[tabs[activeTabIndex]].map(
-                ({ title, link, thumbnail, description }, index) => (
+                ({ title, link, thumbnail, description, skills }, index) => (
                   // Portfolio Item
                   <div className="portfolio-item" key={index}>
                     <a
@@ -53,11 +53,38 @@ const Portfolio = () => {
                           alt="item_thumbnail"
                         />
                       </div>
+
                       <div className="portfolio-item-desc">
                         <h5 className="portfolio-item-heading">{title}</h5>
-                        <h6 className="portfolio-item-caption">
-                          {description}
-                        </h6>
+                        {description && description.length > 0 && (
+                          <h6 className="portfolio-item-caption">
+                            {description.map((sentence) => (
+                              <p>
+                                <span className="bullet">&bull;&nbsp;</span>
+                                {sentence}
+                              </p>
+                            ))}
+                          </h6>
+                        )}
+
+                        {skills && (
+                          <>
+                            <h6 className="skills-heading">
+                              Key Skills/Technologies :
+                            </h6>
+                            <div className="skills-info">
+                              {skills.map((skill) => {
+                                return (
+                                  <h6>
+                                    <span className="skill skill-small badge">
+                                      {skill}
+                                    </span>
+                                  </h6>
+                                );
+                              })}
+                            </div>
+                          </>
+                        )}
                       </div>
                     </a>
                   </div>

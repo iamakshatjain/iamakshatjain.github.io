@@ -12,7 +12,7 @@ const Resume = () => {
         </div>
         <div className="page-content">
           <div className="row">
-            <div className="col-sm-6 col-md-6 col-lg-6">
+            <div className="col-sm-12">
               <div className="block">
                 {/* <!-- Education --> */}
                 <div className="block-title">
@@ -41,7 +41,14 @@ const Resume = () => {
                               {orgName}
                             </a>
                           </span>
-                          <p className="item-description">{description}</p>
+                          {description &&
+                            description.length > 0 &&
+                            description.map((sentence) => (
+                              <p className="item-description">
+                                <span className="bullet">&bull;&nbsp;</span>
+                                {sentence}
+                              </p>
+                            ))}
                         </div>
                       );
                     }
@@ -51,7 +58,7 @@ const Resume = () => {
             </div>
             {/* <!-- / Education --> */}
 
-            <div className="col-sm-6 col-md-6 col-lg-6">
+            <div className="col-sm-12">
               <div className="block">
                 <div className="block-title">
                   <h3>Experience</h3>
@@ -66,10 +73,11 @@ const Resume = () => {
                       endDate,
                       organisation: { name: orgName, link: orgLink },
                       description,
+                      skills,
                     }) => {
                       return (
                         <div className="timeline-item">
-                          <h4 className="item-title">{title}</h4>
+                          <h3 className="item-title">{title}</h3>
                           <span className="item-period">{`${startDate}-${endDate}`}</span>
                           <span className="item-small">
                             <a
@@ -80,7 +88,32 @@ const Resume = () => {
                               {orgName}
                             </a>
                           </span>
-                          <p className="item-description">{description}</p>
+                          {description &&
+                            description.length > 0 &&
+                            description.map((sentence) => (
+                              <p className="item-description">
+                                <span className="bullet">&bull;&nbsp;</span>
+                                {sentence}
+                              </p>
+                            ))}
+                          {skills && (
+                            <>
+                              <h6 className="skills-heading">
+                                Key Skills/Technologies :
+                              </h6>
+                              <div className="skills-info">
+                                {skills.map((skill) => {
+                                  return (
+                                    <h6>
+                                      <span className="skill skill-small badge">
+                                        {skill}
+                                      </span>
+                                    </h6>
+                                  );
+                                })}
+                              </div>
+                            </>
+                          )}
                         </div>
                       );
                     }
@@ -106,7 +139,11 @@ const Resume = () => {
 
                     <div className="skills-info">
                       {skills[subskill].map((badge) => {
-                        return <button className="skill">{badge}</button>;
+                        return (
+                          <h4>
+                            <span className="skill badge">{badge}</span>
+                          </h4>
+                        );
                       })}
                     </div>
                   </>
