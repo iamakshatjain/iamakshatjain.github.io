@@ -150,6 +150,7 @@ export default {
       "HTML5",
       "CSS3",
       "Python",
+      "D3.js"
     ],
     tools: [
       "Github",
@@ -161,6 +162,7 @@ export default {
       "Linux",
       "Postman",
       "VS Code",
+      "Android Studio",
       "Firebase",
       "Heroku",
       "Strapi",
@@ -173,7 +175,7 @@ export default {
       "Web Scraping",
       "Google-Puppeteer",
       "LaTex",
-      "VHDL",
+      "VHDL"
     ],
   },
   portfolio: {
@@ -181,8 +183,8 @@ export default {
       {
         title: "Gramin Mitra",
         description: [
-          "Aims to help educate rural people, especially women about basic hygiene, nutrition, diseases and other common problems",
-          "An easy to use application in native language (Hindi) with voice based guidance and video",
+          "A health awareness application for rural people, especially women and children",
+          "Easy to use application in native language (Hindi) with voice based guidance and video content",
         ],
         skills: [
           "ReactJS",
@@ -243,7 +245,7 @@ export default {
         ],
       },
       {
-        title: "Relice",
+        title: "ReUnite",
         description: [
           "This application aims at helping administration to find missing people with face recognition",
           "Dashboard can be used to generate complaints of missing people and displays all the possible matches with all the details",
@@ -253,6 +255,7 @@ export default {
           "ReactJS",
           "Microsoft Azure",
           "Cloudinary CDN",
+          "Tensorflow.js",
           "REST API",
           "Git",
           "HTML5",
@@ -261,7 +264,25 @@ export default {
         ],
         link: "https://github.com/iamakshatjain/Relice",
       },
-
+      {
+        title: "ProctorX",
+        description: [
+          "Solves the issue of cheating during an online exam.",
+          "Full Screen detection, Tab Switching detection, Window Switching detection, no clipboard access, no screenshots",
+          "Eye movement detection, Camera covering detection using OpenCV"
+        ],
+        skills: [
+          "JavaScript",
+          "ReactJS",
+          "Material-UI",
+          "Tensorflow.js",
+          "WebSpeech API",
+          "Python",
+          "PyTorch",
+          "OpenCV" 
+        ],
+        link: "https://youtu.be/7Q_lfauqAsc",
+      },
       {
         title: "Yelp Camp",
         description: [
@@ -294,6 +315,16 @@ export default {
         skills: ["NetLogo", "Social Network Analysis"],
         thumbnail: "https://i.ibb.co/n86g8Lp/ICM-Model-Performance.png",
         link: "https://github.com/iamakshatjain/NetLogo-ICM",
+      },
+      {
+        title: "Information Visualization using D3.js",
+        description: [
+          "Visualizing Fund Released under Smart Cities Mission during 2015-16 to 2019-20",
+          "Visualizing of total funds and further displaying Used Funds and Available Funds for each state (stacked bar chart - states vs funds)",
+          "Visualizing of total funds and further displaying Used Funds and Available Funds for each city of a state (stacked bar chart - funds vs cities)",
+        ],
+        skills: ["Information Visualization", "D3.js", "HTML", "CSS", "JavaScript"],
+        link: "https://github.com/iamakshatjain/Information-Visualization-D3",
       },
       {
         title: "Entry Management System",
@@ -376,6 +407,26 @@ export default {
     ],
     hackathons: [
       {
+        title: "VersionBeta3.0",
+        description: [
+          "⭐ Won the First Prize",
+          "Developed an online exam proctoring tool",
+          "Organised by Maulana Azad National Institute of Technology, Bhopal"
+        ],
+        thumbnail:
+          "https://i.ibb.co/7gLh7ym/hackathon.jpg",
+        link: "https://youtu.be/7Q_lfauqAsc",
+        skills: [
+          "JavaScript",
+          "ReactJS",
+          "Material-UI",
+          "Tensorflow.js",
+          "WebSpeech API",
+          "Python",
+          "PyTorch"
+        ],
+      },
+      {
         title: "Cybros Hackathon 2019",
         description: [
           "⭐ Won the 'Most voted project' title in the hackathon",
@@ -402,8 +453,9 @@ export default {
         title: "LNMHacks 4.0",
         description: [
           "⭐ Won the 'Most innovative project' title in azure category",
+          "Developed an application to find missing people"
         ],
-        thumbnail: "https://lnmhacks.com/img/logo.png",
+        thumbnail: "https://i.ibb.co/TrfNGc1/lnmhacks.jpg",
         link: "https://github.com/iamakshatjain/LNMHacks4-Submissions",
         skills: [
           "NodeJS",
