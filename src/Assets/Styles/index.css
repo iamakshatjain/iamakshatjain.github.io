@@ -746,7 +746,7 @@ input[type="submit"]:hover {
 }
 
 .skills-info {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   display: flex;
   flex-flow: wrap;
 }

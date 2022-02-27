@@ -78,7 +78,7 @@ const Resume = () => {
                       return (
                         <div className="timeline-item">
                           <h3 className="item-title">{title}</h3>
-                          <span className="item-period">{`${startDate}-${endDate}`}</span>
+                          <span className="item-period">{`${startDate} - ${endDate}`}</span>
                           <span className="item-small">
                             <a
                               href={orgLink}
@@ -134,7 +134,7 @@ const Resume = () => {
                 return (
                   <>
                     <div className="block-sub-title">
-                      <h4>{capitalize(subskill)}</h4>
+                      <h4 >{capitalize(subskill)}</h4>
                     </div>
 
                     <div className="skills-info">

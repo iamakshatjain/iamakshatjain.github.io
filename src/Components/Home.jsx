@@ -77,18 +77,9 @@ const Home = () => {
                   className="btn btn-secondary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  download
                 >
                   Download Resume
-                </a>
-              </div>
-              <div className="download-card">
-                <a
-                  href={vCard}
-                  className="btn btn-secondary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Download V-Card
                 </a>
               </div>
             </div>

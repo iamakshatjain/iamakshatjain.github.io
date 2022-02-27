@@ -23,14 +23,14 @@ export default {
     // remove the field that you don't want on your portfolio home page and contacts page
     email: "developer.akshatjain@gmail.com",
     phone: "+91-8979297928",
-    location: "Jaipur, India",
+    location: "India 🇮🇳",
     freelance: "Available",
   },
 
   //   provide direct links to resume and vCard resource to allow downloading
   //   vCard : virtual business card
   resume:
-    "https://drive.google.com/file/d/1zc5WXMfsXM7KkkOdwYPdus5J9D9jHLIX/view?usp=sharing",
+    "https://drive.google.com/uc?export=download&id=12nz_vzyff3QK6yay0QhI2COVZYzrDAZZ",
   vCard:
     "https://res.cloudinary.com/whiteknight/image/upload/v1597427637/Screenshot_from_2020-08-14_23-23-26_qzbhw8.png",
 
@@ -47,8 +47,8 @@ export default {
         link: "https://www.lnmiit.ac.in/",
       },
       description: [
-        "CGPA : 9.29 (Sixth semester)",
-        "Recieved merit scholarship for achieving an overall 9.27 & 9.33 CGPA  in the first and second year of engineering",
+        "CGPA : 9.31",
+        "Recieved merit scholarship every year of engineering for my academic performance",
       ],
     },
     {
@@ -63,12 +63,63 @@ export default {
       description: [
         "Overall 94.8% in Physics, Chemistry, Mathematics with Computer Science",
         "Recieved merit scholarship for being amongst most meritorious students",
-        "Scored 99/100 in Computer Science (Python)",
+        "Scored highest marks (99/100) in Computer Science (Python)",
       ],
     },
   ],
 
   experience: [
+    {
+      title: "Software Development Engineer",
+      //   write in exact format as you want it to be displayed
+      startDate: "Aug 2021",
+      endDate: "Present",
+      organisation: {
+        name: "Innovaccer Analytics Pvt. Ltd.",
+        link: "https://innovaccer.com/",
+      },
+      description: [
+        "According to CMS 9115, the payer organizations need to provide patients with access to their personal PHI data and also facilitate payer-to-payer data exchange.",
+        "Developed a payer-member portal to provide easy data access to patients with best possible user experience on any of their devices.",
+        "Developed a payer registry which is being used by major US payer organizations to efficiently facilitate payer-to-payer data exchange.",
+      ],
+      skills: [
+        "JavaScript",
+        "ReactJS",
+        "NodeJS",
+        "HTML",
+        "CSS",
+        "Jest",
+        "Enzyme",
+        "react-testing-library",
+        "Git",
+        "Scrum",
+      ],
+    },
+    {
+      title: "Software Development Engineering Intern",
+      //   write in exact format as you want it to be displayed
+      startDate: "Jan 2021",
+      endDate: "Jul 2021",
+      organisation: {
+        name: "Innovaccer Analytics Pvt. Ltd.",
+        link: "https://innovaccer.com/",
+      },
+      description: [
+        "Utilization management (UM) is a process that helps evaluate the facilities provided to patients on a case-by-case basis.",
+        "Developed an effective UM system that entirely digitized and significantly expedited the prior auth process.",
+        "Refactored 1500+ lines of code to reduce the bundle size and implement rendering optimizations.",
+      ],
+      skills: [
+        "JavaScript",
+        "ReactJS",
+        "NodeJS",
+        "HTML",
+        "CSS",
+        "Git",
+        "Scrum",
+      ],
+    },
     {
       title: "Software Development Engineering Intern",
       //   write in exact format as you want it to be displayed
@@ -95,31 +146,6 @@ export default {
       ],
     },
     {
-      title: "Software Development Engineering Intern",
-      //   write in exact format as you want it to be displayed
-      startDate: "Aug 2019",
-      endDate: "Mar 2020",
-      organisation: {
-        name: "Namekart Pvt. Ltd.",
-        link: "https://namekart.com/",
-      },
-      description: [
-        "Collaborate with the CEO to learn about domain name brokerage",
-        "Developed Inventory management system for the organization to automate the business procedures",
-        "Used cron for web scheduled scraping and cleaning of data to get the most relevant information",
-        "Automatic bidding with headless browser automation over Virtual Private Servers",
-      ],
-      skills: [
-        "ReactJS",
-        "Firebase",
-        "Web Scraping",
-        "Cron",
-        "HTML5",
-        "CSS3",
-        "Javascript",
-      ],
-    },
-    {
       title: "Full Stack Developer Intern",
       //   write in exact format as you want it to be displayed
       startDate: "May 2019",
@@ -135,47 +161,40 @@ export default {
     },
   ],
 
-  //   TODO : write these again
   skills: {
-    Programming: [
-      "C++",
-      "Javascript",
-      "ReactJS",
-      "NodeJS",
-      "MongoDB",
-      "ExpressJS",
-      "REST API",
-      "MySQL",
+    Frontend: ["Javascript", "ReactJS", "Redux", "HTML5", "CSS3"],
+    Backend: ["Javascript", "NodeJS", "MongoDB", "ExpressJS", "REST API"],
+    "Dev tools": [
       "Git",
-      "HTML5",
-      "CSS3",
-      "Python",
-      "D3.js"
-    ],
-    tools: [
-      "Github",
-      "Gitlab",
-      "Redux",
+      "Jest",
+      "Enzyme",
+      "testing-library",
+      "Webpack",
+      "Babel",
+      "NPM",
+      "Jira",
       "Bootstrap",
       "Semantic-UI",
       "Material-UI",
       "Linux",
       "Postman",
       "VS Code",
-      "Android Studio",
       "Firebase",
       "Heroku",
-      "Strapi",
+      "Strapi (CMS)",
     ],
     familiar: [
+      "Python",
+      "C++",
       "Java",
+      "MySQL",
       "PostgreSQL",
       "Ionic",
-      "Capacitor",
       "Web Scraping",
-      "Google-Puppeteer",
+      "Browser automation",
       "LaTex",
-      "VHDL"
+      "VHDL",
+      "D3.js",
     ],
   },
   portfolio: {
@@ -224,6 +243,17 @@ export default {
         link: "https://github.com/iamakshatjain/iamakshatjain.github.io",
       },
       {
+        title: "Quizspot",
+        description: [
+          "Developed the app to aid my startup OppSpot in taking quizes during different stages of the hiring process.",
+          "It was used by 300+ students to give tests for 20+ companies.",
+        ],
+        thumbnail:
+          "https://docs.google.com/uc?id=1D5KCZ6cfCAnZpbJqxFHPfuppSOjNOJ7g",
+        link: "https://github.com/iamakshatjain/quizspot",
+        skills: ["Javascript", "ReactJS", "Firebase", "HTML5", "CSS", "Git"],
+      },
+      {
         title: "LNMIIT Sync",
         description: [
           "Aims to help students, guest and event organisers with event management during college fests and other cultural programs",
@@ -269,7 +299,7 @@ export default {
         description: [
           "Solves the issue of cheating during an online exam.",
           "Full Screen detection, Tab Switching detection, Window Switching detection, no clipboard access, no screenshots",
-          "Eye movement detection, Camera covering detection using OpenCV"
+          "Eye movement detection, Camera covering detection using OpenCV",
         ],
         skills: [
           "JavaScript",
@@ -279,7 +309,7 @@ export default {
           "WebSpeech API",
           "Python",
           "PyTorch",
-          "OpenCV" 
+          "OpenCV",
         ],
         link: "https://youtu.be/7Q_lfauqAsc",
       },
@@ -323,7 +353,13 @@ export default {
           "Visualizing of total funds and further displaying Used Funds and Available Funds for each state (stacked bar chart - states vs funds)",
           "Visualizing of total funds and further displaying Used Funds and Available Funds for each city of a state (stacked bar chart - funds vs cities)",
         ],
-        skills: ["Information Visualization", "D3.js", "HTML", "CSS", "JavaScript"],
+        skills: [
+          "Information Visualization",
+          "D3.js",
+          "HTML",
+          "CSS",
+          "JavaScript",
+        ],
         link: "https://github.com/iamakshatjain/Information-Visualization-D3",
       },
       {
@@ -350,8 +386,7 @@ export default {
         ],
         thumbnail:
           "https://res.cloudinary.com/whiteknight/image/upload/v1597498378/ems_aybka6.jpg",
-        link:
-          "https://github.com/iamakshatjain/Innovacer_entry_management_system",
+        link: "https://github.com/iamakshatjain/Innovacer_entry_management_system",
       },
       {
         title: "TechGyan",
@@ -411,10 +446,9 @@ export default {
         description: [
           "⭐ Won the First Prize",
           "Developed an online exam proctoring tool",
-          "Organised by Maulana Azad National Institute of Technology, Bhopal"
+          "Organised by Maulana Azad National Institute of Technology, Bhopal",
         ],
-        thumbnail:
-          "https://i.ibb.co/7gLh7ym/hackathon.jpg",
+        thumbnail: "https://i.ibb.co/7gLh7ym/hackathon.jpg",
         link: "https://youtu.be/7Q_lfauqAsc",
         skills: [
           "JavaScript",
@@ -423,7 +457,7 @@ export default {
           "Tensorflow.js",
           "WebSpeech API",
           "Python",
-          "PyTorch"
+          "PyTorch",
         ],
       },
       {
@@ -453,7 +487,7 @@ export default {
         title: "LNMHacks 4.0",
         description: [
           "⭐ Won the 'Most innovative project' title in azure category",
-          "Developed an application to find missing people"
+          "Developed an application to find missing people",
         ],
         thumbnail: "https://i.ibb.co/TrfNGc1/lnmhacks.jpg",
         link: "https://github.com/iamakshatjain/LNMHacks4-Submissions",
@@ -489,8 +523,7 @@ export default {
         ],
         thumbnail:
           "https://res.cloudinary.com/whiteknight/image/upload/v1597497082/crio_semhem.png",
-        link:
-          "https://criodo.github.io/Crio-Launch-Feb-2020-developer-akshatjain/",
+        link: "https://criodo.github.io/Crio-Launch-Feb-2020-developer-akshatjain/",
       },
     ],
     "extra Curriculars": [
@@ -516,8 +549,7 @@ export default {
         ],
         thumbnail:
           "https://res.cloudinary.com/whiteknight/image/upload/v1597491997/Screenshot_from_2020-08-15_17-16-17_lzts06.png",
-        link:
-          "https://www.facebook.com/events/375021799921363/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%7D",
+        link: "https://www.facebook.com/events/375021799921363/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%7D",
         skills: [
           "Marketing",
           "Management",
@@ -536,8 +568,7 @@ export default {
         skills: ["Marketing", "Advertisement", "Public Speaking"],
         thumbnail:
           "https://res.cloudinary.com/whiteknight/image/upload/v1597496037/internshala_og_image_pcjejp.webp",
-        link:
-          "https://www.linkedin.com/in/iamakshtjain/detail/treasury/position:1466658733/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACS21yQBfPLlst3-FvzFE8lf5TSN17pmTgI%2C1561052235795)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAACS21yQBfPLlst3-FvzFE8lf5TSN17pmTgI%2C1466658733)&section=position%3A1466658733&treasuryCount=2",
+        link: "https://www.linkedin.com/in/iamakshtjain/detail/treasury/position:1466658733/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACS21yQBfPLlst3-FvzFE8lf5TSN17pmTgI%2C1561052235795)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAACS21yQBfPLlst3-FvzFE8lf5TSN17pmTgI%2C1466658733)&section=position%3A1466658733&treasuryCount=2",
       },
     ],
     "co Curriculars": [

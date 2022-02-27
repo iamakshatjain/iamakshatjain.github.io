@@ -51,6 +51,7 @@ const Portfolio = () => {
                           className="portfolio-item-image"
                           src={thumbnail || dummyThumbnail}
                           alt="item_thumbnail"
+                          key={thumbnail || dummyThumbnail}
                         />
                       </div>
 
