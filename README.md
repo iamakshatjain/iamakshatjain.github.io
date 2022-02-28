@@ -215,6 +215,8 @@ Project Link: [Virtual Card Portfolio](https://github.com/iamakshatjain/iamaksha
 
 * [Theme Forest](https://themeforest.net/)
 
+* [Cloudinary](https://cloudinary.com/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
