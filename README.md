@@ -85,7 +85,7 @@ Here's why:
 
 * Your time should be focused on creating amazing projects rather than keep updating your portfolio code for the previous endeavour!
 
-* This template allows you to edit your entire portfolio with just one file (`data.json`) 
+* This template allows you to edit your entire portfolio with just one file (`/src/data.js`) 
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
@@ -154,7 +154,7 @@ npm run start
 
 And your project is up and available at `localhost:300` on your browser!
 
-2. Make the required changes in `data.json` as per the guiding comments and update the homepage URL in `package.json` to the github pages url of your profile
+2. Make the required changes in `/src/data.js` as per the guiding comments and update the homepage URL in `package.json` to the github pages url of your profile
 
 ```sh
 
