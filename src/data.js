@@ -30,7 +30,7 @@ export default {
   //   provide direct links to resume and vCard resource to allow downloading
   //   vCard : virtual business card
   resume:
-    "https://drive.google.com/uc?export=download&id=12nz_vzyff3QK6yay0QhI2COVZYzrDAZZ",
+    "https://drive.google.com/uc?id=12nz_vzyff3QK6yay0QhI2COVZYzrDAZZ",
   vCard:
     "https://res.cloudinary.com/whiteknight/image/upload/v1597427637/Screenshot_from_2020-08-14_23-23-26_qzbhw8.png",
 
@@ -184,6 +184,7 @@ export default {
       "Strapi (CMS)",
     ],
     familiar: [
+      "TypeScript",
       "Python",
       "C++",
       "Java",
