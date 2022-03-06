@@ -201,7 +201,7 @@ Don't forget to give the project a star! Thanks again!
 
 ##  Contact
 
-Your Name - [@iamakshtjain](https://twitter.com/iamakshtjain) - developer.akshatjain@gmail.com
+Akshat Jain - [@iamakshtjain](https://twitter.com/iamakshtjain) - developer.akshatjain@gmail.com
 
 Project Link: [Virtual Card Portfolio](https://github.com/iamakshatjain/iamakshatjain.github.io/)
 
